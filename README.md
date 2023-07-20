@@ -1,5 +1,27 @@
 ## DV01 Backend Challenge Assignment
 
+### Project Setup
+Within the directory of this project you must run:
+
+`./setup.sh`
+
+This will unzip the csv data file. Since it was bigger than 100M github wouldn't let me check it in.
+
+### Running the project
+From within the project execute:
+
+`sbt run`
+
+In another terminal window execute curl commands, for example:
+
+`curl -vvv http://0.0.0.0:8080/api/v1/loan-status-count-by-state/CA`
+
+and
+
+`curl -vvv http://0.0.0.0:8080/api/v1/loan-status-count-all-states`
+
+To stop the project from running just `ctrl-C`. This will automatically clean up the in memory database.
+
 ### The Tech Stack
 This project is built using the following libraries:
 
@@ -61,18 +83,4 @@ Response Sample:
   .
   .
 ```
-
-
-
-### Running the project
-From within the project execute:
-`sbt run`
-
-In another terminal window execute curl commands, for example:
-
-`curl -vvv http://0.0.0.0:8080/api/v1/loan-status-count-by-state/CA`
-
-and
-
-`curl -vvv http://0.0.0.0:8080/api/v1/loan-status-count-all-states`
 
