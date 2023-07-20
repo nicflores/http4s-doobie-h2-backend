@@ -27,6 +27,7 @@ This project is built using the following libraries:
 
 `cats-effect`: Used to handle the `IO` effect system and manage the various resoures used in the project.
 `http4s`: Used to design the the http server and its routes.
+`fs2`: Used to stream data instead of caching everything in memeory and then sending it over the wire.
 `doobie`: Used to define safe sql queries and to interact with the database.
 `flyway`: Used to populate the in memory database at start up time.
 `H2`: In memory database used to query LoadStats csv data.
