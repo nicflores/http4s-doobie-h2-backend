@@ -1,4 +1,4 @@
-## DV01 Backend Challenge Assignment
+## Backend Challenge Assignment
 
 ### Project Setup
 Within the directory of this project you must run:
