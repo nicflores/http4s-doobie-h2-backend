@@ -1,4 +1,5 @@
-## Backend Challenge Assignment
+## Sample Scala Backend Project
+This project showcases various Typelevel libraries interacting with an in memory H2 database and exposing a web api using http4s.
 
 ### Project Setup
 Within the directory of this project you must run:
